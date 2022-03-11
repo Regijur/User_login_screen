@@ -12,8 +12,8 @@ function addEvents(){
     eyedis.addEventListener("click",changeVisibility)
     eye.addEventListener("click",() => setPasswordType("password"))
     eyedis.addEventListener("click", () => setPasswordType("text"))
-    email_input.addEventListener("change", VerificateSubmition)
-    password_input.addEventListener("change", VerificateSubmition)
+    email_input.addEventListener("change", VericateSubmit)
+    password_input.addEventListener("change", VericateSubmit)
 }
 
 function changeVisibility(){
@@ -30,7 +30,7 @@ function setPasswordType(type){
 }
 
 
-function VerificateSubmition(){
+function VericateSubmit(){
     email_len = document.getElementById("email").value.length
     password_len = document.getElementById("password").value.length
     
