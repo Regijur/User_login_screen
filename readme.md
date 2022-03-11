@@ -10,4 +10,4 @@ Por esse motivo não utilizei nenhum tipo de biblioteca ou framework.
 >* CSS
 >* HTML
 
-Desenvolvido por: Reginaldo Ferreira da Mota
+Desenvolvido por: Reginaldo Ferreira da Mota Júnior
