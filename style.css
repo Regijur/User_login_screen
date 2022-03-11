@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    color: white;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Roboto', 'Arial';
+}
+
+html{
+    display: grid;
+    grid-template-columns: (1fr,1fr);
+    grid-template-rows: (1fr,1fr);
+    background: #121214;
+}
+
+a{
+    color: #8257E6;
+}
+
+#tittle{
+    margin: 2rem 0rem 0.8rem 4rem;
+    line-height: 3rem;
+    font-size: 2.5rem;
+}
+
+#form-field{
+    background: #202024;
+    margin: 0rem 4rem;
+    padding: 3rem 4rem;
+    border-radius: 0.4rem;
+    max-width: 500px;
+}
+
+#field-email, #field-password{
+    background: #121214;
+    width: 100%;
+    padding: 0rem 1rem;
+    margin: 0.2rem 0rem;
+    font-size: 1rem;
+    font-weight: lighter;
+    border-radius: 0.2rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#svg-email, #svg-password{
+    fill: #29292E;
+    margin-right: 0.5rem;
+}
+
+#svg-eye, #svg-eye-disable{
+    fill:#8257E6;
+}
+
+#button-eye{
+    cursor: pointer;
+} 
+
+#button-eye-disable{
+    display: none;
+}
+
+#email, #password{
+    background-color: transparent;
+    width: 100%;
+    height: 100%;
+    padding: 1rem 0.5rem;
+}
+
+#forget-password{
+    font-size: 0.9rem;
+}
+
+#submit-disable{
+    width: 100%;
+    background: #41356B;
+    color: #ffffff59;
+    padding: 1rem 0.5rem;
+    border-radius: 0.2rem;
+    margin-top: 0.5rem;
+    cursor: not-allowed;
+    font-weight: bold;
+}
+#submit-enable{
+    width: 100%;
+    background: #8257E6;
+    color: #ffffff;
+    padding: 1rem 0.5rem;
+    border-radius: 0.2rem;
+    margin-top: 0.5rem;
+    cursor: pointer;
+    font-weight: bold;
+}
+#register-field{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 0.5rem;
+    font-size: 0.9rem;
+}
+
+#register-button{
+    margin-left: 0.7rem;
+}
+
+#github-field{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#github-text{
+    font-size: 0.9rem;
+}
+
+#github-button{
+    background: #29292E;
+    padding: 1rem 5rem;
+    font-weight: bold;
+    transition: background-color 0.8s;
+}
+
+#github-button:hover{
+    background-color: #8257E6;
+}
